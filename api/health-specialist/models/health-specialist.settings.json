@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "health_specialists",
+  "info": {
+    "name": "Health Specialist"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "profile_picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "work": {
+      "type": "text"
+    },
+    "roles": {
+      "via": "health_specialist",
+      "plugin": "users-permissions",
+      "collection": "role"
+    }
+  }
+}

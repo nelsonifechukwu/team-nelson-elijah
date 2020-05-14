@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "users-permissions_role",
+  "info": {
+    "name": "role",
+    "description": ""
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "minLength": 3,
+      "required": true,
+      "configurable": false
+    },
+    "description": {
+      "type": "string",
+      "configurable": false
+    },
+    "type": {
+      "type": "string",
+      "unique": true,
+      "configurable": false
+    },
+    "permissions": {
+      "collection": "permission",
+      "via": "role",
+      "plugin": "users-permissions",
+      "configurable": false,
+      "isVirtual": true
+    },
+    "users": {
+      "collection": "user",
+      "via": "role",
+      "configurable": false,
+      "plugin": "users-permissions"
+    },
+    "doctor": {
+      "model": "doctor",
+      "via": "roles"
+    },
+    "care_giver": {
+      "model": "care-givers",
+      "via": "roles"
+    },
+    "health_specialist": {
+      "model": "health-specialist",
+      "via": "roles"
+    }
+  }
+}
