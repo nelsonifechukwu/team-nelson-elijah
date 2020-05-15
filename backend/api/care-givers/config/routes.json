@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/care-givers",
+      "handler": "care-givers.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/care-givers/count",
+      "handler": "care-givers.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/care-givers/:id",
+      "handler": "care-givers.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/care-givers",
+      "handler": "care-givers.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/care-givers/:id",
+      "handler": "care-givers.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/care-givers/:id",
+      "handler": "care-givers.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
