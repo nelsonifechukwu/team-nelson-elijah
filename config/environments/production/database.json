@@ -2,11 +2,18 @@
   "defaultConnection": "default",
   "connections": {
     "default": {
-      "connector": "mongoose",
+      "connector": "strapi-mongoose",
       "settings": {
-        "uri": "mongodb+srv://conquerorsword:YfNB228KPFsQLeTs@cluster0-xco01.mongodb.net/test?retryWrites=true&w=majority"
+        "client": "mongo",
+        "uri": "${process.env.DATABASE_URI || ''}",
+        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
+        "port": "${process.env.DATABASE_PORT || 27017}",
+        "database": "${process.env.DATABASE_NAME || 'Production'}",
+        "username": "${process.env.DATABASE_USERNAME || ''}",
+        "password": "${process.env.DATABASE_PASSWORD || ''}"
       },
       "options": {
+        "authenticationDatabase": "${process.env.DATABASE_AUTHENTICATION_DATABASE || ''}",
         "ssl": true
       }
     }
