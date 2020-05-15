@@ -45,7 +45,7 @@ I believe this is the App for the Century
  DELETE      /articles/:id                
  
  ## Frontend                        
- https://team-nelson-elijah-git-user-login-signup.akinyeleolat.now.sh             
+ https://team-nelson-elijah.now.sh            
  HTML,    
  CSS,    
  Boostrap
