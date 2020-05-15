@@ -23,38 +23,38 @@ I believe this is the App for the Century
 
 
 ## Usage
- ROUTES
- Sign up POST /auth/local/register
- "tag": {
-           {
- 	"username":"team-nelson",
- 		"email":"conquror4@gmail.com",
- 		"password":"kaliboy"
-             }
-         }
- Sign in POST /auth/local
-  "tag": {
-           {
- 		"identifier": "conquror4@gmail.com",
- 		"password":"kaliboy"
- 	        }
- POST         /articles
- GET          /articles
- GET  	    /articles/:id
- PUT         /articles/:id
- DELETE      /articles/:id
+ ROUTES                   
+ Sign up POST /auth/local/register                   
+ "tag": {                              
+           {                       
+ 	"username":"team-nelson",                      
+ 		"email":"conquror4@gmail.com",                      
+ 		"password":"kaliboy"                            
+             }                
+         }                                            
+ Sign in POST /auth/local                      
+  "tag": {                          
+           {                                  
+ 		"identifier": "conquror4@gmail.com",                        
+ 		"password":"kaliboy"                          
+ 	        }                                
+ POST         /articles                        
+ GET          /articles                               
+ GET  	    /articles/:id                                
+ PUT         /articles/:id                                  
+ DELETE      /articles/:id                
  
  ## Frontend
- HTML,
- CSS,
+ HTML,    
+ CSS,    
  Boostrap
  
  ## Backend
- The Backend Uses Strapi  
- https://whispering-woodland-25875.herokuapp.com
- username: Admin
- password: Adminpassword
- Hosted on Heroku
+ The Backend Uses Strapi       
+ https://whispering-woodland-25875.herokuapp.com   
+ username: Admin    
+ password: Adminpassword  
+ Hosted on Heroku    
  Database Mongodb
  
  
@@ -62,14 +62,15 @@ I believe this is the App for the Century
 
 ## Authors
 
- Oluwatosin Akinyele
- Nelson Elijah
- Victor Godwin
- Oloyede Jeremiah
+ Oluwatosin Akinyele   
+ Nelson Elijah   
+ Victor Godwin          
+ Oloyede Jeremiah          
  
  
 ## Acknowledgements
-
+Srapi Team                               
+Afrikathon 2020 Team         
 
 ## LICENSE
 MIT
