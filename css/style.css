@@ -101,6 +101,10 @@ h6 {
 	line-height: 1em;
 }
 
+.highlight{
+color: #22A5A4;
+}
+
 h1.h-xlight,h2.h-xlight,h3.h-xlight ,h4.h-xlight ,h5.h-xlight ,h6.h-xlight  {
 	font-weight: 100;
 }
