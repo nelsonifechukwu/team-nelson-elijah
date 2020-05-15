@@ -23,21 +23,53 @@ I believe this is the App for the Century
 
 
 ## Usage
- How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
-
+ ROUTES
+ Sign up POST /auth/local/register
+ "tag": {
+           {
+ 	"username":"team-nelson",
+ 		"email":"conquror4@gmail.com",
+ 		"password":"kaliboy"
+             }
+         }
+ Sign in POST /auth/local
+  "tag": {
+           {
+ 		"identifier": "conquror4@gmail.com",
+ 		"password":"kaliboy"
+ 	        }
+ POST         /articles
+ GET          /articles
+ GET  	    /articles/:id
+ PUT         /articles/:id
+ DELETE      /articles/:id
+ 
+ ## Frontend
+ HTML,
+ CSS,
+ Boostrap
+ 
+ ## Backend
+ The Backend Uses Strapi  
+ https://whispering-woodland-25875.herokuapp.com
+ username: Admin
+ password: Adminpassword
+ Hosted on Heroku
+ Database Mongodb
+ 
+ 
+ 
 
 ## Authors
 
-List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project.
-
-
+ Oluwatosin Akinyele
+ Nelson Elijah
+ Victor Godwin
+ Oloyede Jeremiah
+ 
+ 
 ## Acknowledgements
 
-Did you use someone else’s code?
-Do you want to thank someone explicitly?
-Did someone’s blog post spark off a wonderful idea or give you a solution to nagging problem?
-
-It's powerful to always give credit.
 
 ## LICENSE
 MIT
