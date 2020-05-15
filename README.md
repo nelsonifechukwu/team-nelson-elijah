@@ -1,4 +1,4 @@
-## YOUR PROJECT NAME
+## I-HealthAfrica
 
 I-HealthAfrica is an application focused at making Africans more healthy by providing health education and access to Health Professionals
 
