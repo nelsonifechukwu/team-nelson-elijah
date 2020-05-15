@@ -1,6 +1,8 @@
 ## I-HealthAfrica
 
-I-HealthAfrica is an application focused at making Africans more healthy by providing health education and access to Health Professionals
+I-HealthAfrica is an application focused at making Africans more healthy by providing health education and access to Health Professionals                                        
+
+https://docs.google.com/document/d/1Epsw0Vnqmbse6OQu_IPQz9tzvHWbu1RlFAdRGIrlll4/edit#heading=h.z6ne0og04bp5
 
 
 ## About
