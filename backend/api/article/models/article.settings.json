@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articles",
+  "info": {
+    "name": "Article"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "author": {
+      "type": "string"
+    },
+    "article": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "comment": {
+      "type": "string"
+    }
+  }
+}

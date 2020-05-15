@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "care_givers",
+  "info": {
+    "name": "careGivers"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "profile_picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "work": {
+      "type": "text"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "roles": {
+      "via": "care_giver",
+      "plugin": "users-permissions",
+      "collection": "role"
+    }
+  }
+}

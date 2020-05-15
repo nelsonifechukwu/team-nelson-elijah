@@ -1,8 +1,6 @@
-## I-HealthAfrica
+## YOUR PROJECT NAME
 
-I-HealthAfrica is an application focused at making Africans more healthy by providing health education and access to Health Professionals                                        
-
-https://docs.google.com/document/d/1Epsw0Vnqmbse6OQu_IPQz9tzvHWbu1RlFAdRGIrlll4/edit#heading=h.z6ne0og04bp5
+I-HealthAfrica is an application focused at making Africans more healthy by providing health education and access to Health Professionals
 
 
 ## About
@@ -25,58 +23,21 @@ I believe this is the App for the Century
 
 
 ## Usage
- ROUTES                   
- Sign up POST /auth/local/register                   
- "tag": {                              
-           {                       
- 	"username":"team-nelson",                      
- 		"email":"conquror4@gmail.com",                      
- 		"password":"kaliboy"                            
-             }                
-         }                                            
- Sign in POST /auth/local                      
-  "tag": {                          
-           {                                  
- 		"identifier": "conquror4@gmail.com",                        
- 		"password":"kaliboy"                          
- 	        }                                
- POST         /articles                        
- GET          /articles                               
- GET  	    /articles/:id                                
- PUT         /articles/:id                                  
- DELETE      /articles/:id                
- 
- ## Visual Design
-https://xd.adobe.com/view/bc80031b-7257-4765-7f14-d43655bbb85e-cab1/
+ How would someone use what you have built, include URLs to the deployed app, service e.t.c when you have it setup
 
- ## Frontend                        
- https://team-nelson-elijah.now.sh            
- HTML,    
- CSS,    
- Boostrap
- 
- ## Backend
- The Backend Uses Strapi       
- https://whispering-woodland-25875.herokuapp.com   
- username: Admin    
- password: Adminpassword  
- Hosted on Heroku    
- Database Mongodb
- 
- 
- 
 
 ## Authors
 
- Oluwatosin Akinyele   
- Nelson Elijah   
- Victor Godwin          
- Oloyede Jeremiah          
- 
- 
+List the team behind this project. Their names linked to their Github, LinkedIn, or Twitter accounts should siffice. Ok to signify the role they play in the project.
+
+
 ## Acknowledgements
-Srapi Team                               
-Afrikathon 2020 Team         
+
+Did you use someone else’s code?
+Do you want to thank someone explicitly?
+Did someone’s blog post spark off a wonderful idea or give you a solution to nagging problem?
+
+It's powerful to always give credit.
 
 ## LICENSE
 MIT

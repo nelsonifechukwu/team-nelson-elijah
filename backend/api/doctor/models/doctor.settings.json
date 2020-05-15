@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "doctors",
+  "info": {
+    "name": "Doctor"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true
+  },
+  "attributes": {
+    "firstName": {
+      "type": "string"
+    },
+    "lastName": {
+      "type": "string"
+    },
+    "price": {
+      "type": "integer"
+    },
+    "Address": {
+      "type": "string"
+    },
+    "password": {
+      "type": "password"
+    },
+    "profile_picture": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "work": {
+      "type": "text"
+    },
+    "roles": {
+      "via": "doctor",
+      "plugin": "users-permissions",
+      "collection": "role"
+    }
+  }
+}
