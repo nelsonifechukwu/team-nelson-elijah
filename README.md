@@ -75,7 +75,7 @@ https://xd.adobe.com/view/bc80031b-7257-4765-7f14-d43655bbb85e-cab1/
  
  
 ## Acknowledgements
-Srapi Team                               
+Strapi Team                               
 Afrikathon 2020 Team         
 
 ## LICENSE
