@@ -1,6 +1,9 @@
 ## I-HealthAfrica
 
-I-HealthAfrica is an application focused at making Africans more healthy by providing health education and access to Health Professionals                                        
+I-HealthAfrica is an application focused at making Africans more healthy by providing health education and access to Health Professionals 
+<img width="1441" alt="Screenshot 2020-05-16 at 20 09 53" src="https://user-images.githubusercontent.com/19696366/82128210-4de3c600-97b1-11ea-9b40-1deb8cea42eb.png">
+<img width="1780" alt="Screenshot 2020-05-16 at 20 09 07" src="https://user-images.githubusercontent.com/19696366/82128232-766bc000-97b1-11ea-856c-e1b00a1f4459.png">
+Presentation: [I HEALTH AFRICA 2.pdf](https://github.com/akinyeleolat/mobile-buka-food-ordering-app/files/4639075/I.HEALTH.AFRICA.2.pdf)
 
 https://docs.google.com/document/d/1Epsw0Vnqmbse6OQu_IPQz9tzvHWbu1RlFAdRGIrlll4/edit#heading=h.z6ne0og04bp5
 
@@ -49,7 +52,7 @@ I believe this is the App for the Century
  ## Visual Design
 https://xd.adobe.com/view/bc80031b-7257-4765-7f14-d43655bbb85e-cab1/
 
- ## Frontend                        
+ ## Frontend
  https://team-nelson-elijah.now.sh            
  HTML,    
  CSS,    
@@ -75,7 +78,7 @@ https://xd.adobe.com/view/bc80031b-7257-4765-7f14-d43655bbb85e-cab1/
  
  
 ## Acknowledgements
-Srapi Team                               
+Strapi Team                               
 Afrikathon 2020 Team         
 
 ## LICENSE
